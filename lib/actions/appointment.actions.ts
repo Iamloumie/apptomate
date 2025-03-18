@@ -96,7 +96,7 @@ export const updateAppointment = async ({ appointmentId, userId, appointment, ty
       throw new Error('Appointment not found');
     }
     const smsMessage = `
-      Hi, it's AppToMate.
+      Hi, it's CarePulse.
       ${type === 'schedule'
         ? `Your appointment has been scheduled successfully for ${formatDateTime(appointment.schedule!).dateTime} with Dr. ${appointment.primaryPhysician}`
         : `We regret to  inform you that your appointment has been cancelled because of the following reason: ${appointment.cancellationReason}. We are sorry for any inconvenience caused.`

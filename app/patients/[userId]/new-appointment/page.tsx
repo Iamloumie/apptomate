@@ -14,7 +14,7 @@ export default async function NewAppointment({ params: { userId }}: SearchParamP
             src="/assets/icons/logo-full.svg"
             height={1000}
             width={1000}
-            alt="Apptomate logo"
+            alt="CarePulse logo"
             className="mb-12 h-10 w-fit"
           />
 
@@ -24,7 +24,7 @@ export default async function NewAppointment({ params: { userId }}: SearchParamP
             patientId={patient.$id}
           />
 
-          <p className="copyright mt-10 py-12">© 2025 AppToMate</p>
+          <p className="copyright mt-10 py-12">© 2025 Carepulse</p>
         </div>
       </section>
 
